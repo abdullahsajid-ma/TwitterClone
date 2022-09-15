@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    font-family: 'iCielMedium';
+}
+@font-face {
+    font-family: 'iCielMedium';
+    src: local('iCielMedium'), url('./fonts/iCiel-Medium.ttf') format('truetype');
+    font-weight: normal;
+}
+body{
+    font-family: 'iCielMedium';
+    font-weight: normal;
+} 
+.Item_container{
+    scroll-snap-type: y mandatory;
+    overflow: auto;
+    height: 100vh;
+}

@@ -1,0 +1,24 @@
+.button{
+    background-color: rgba(59,62,66,1);
+    height: 40px;
+    width: 256px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    /* opacity: 0.85; */
+}
+.button>a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+.btnwhite{
+    background-color: #fff;
+    opacity: 0.8;
+}
+.btnwhite>a{
+    color: #000;
+}
